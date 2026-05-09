@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griya Bakery - Pesan Snack Box & Kue untuk Segala Acara</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        h1, h2, h3, .brand-font { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-amber-50 text-gray-800 antialiased overflow-x-hidden">
+
+    <nav class="bg-white shadow-sm py-4 px-6 md:px-12 flex justify-between items-center sticky top-0 z-50">
+        <div class="flex items-center gap-3">
+            <img src="Griya Bakery.png" alt="Logo Griya Bakery" class="w-16 h-auto border border-amber-200 rounded-lg p-1">
+            <span class="text-2xl font-bold text-amber-900 brand-font tracking-wide">Griya Bakery</span>
+        </div>
+        
+        <div class="hidden md:flex gap-8 font-medium text-gray-600">
+            <a href="#beranda" class="hover:text-amber-600 transition">Beranda</a>
+            <a href="#menu" class="hover:text-amber-600 transition">Pilihan Menu</a>
+            <a href="#layanan" class="hover:text-amber-600 transition">Layanan Acara</a>
+            <!-- Menu Baru -->
+            <a href="#kontak" class="hover:text-amber-600 transition">Tinggalkan Pesan</a>
+        </div>
+        
+        <a href="https://wa.me/6283167040096?text=Halo%20Griya%20Bakery,%20saya%20ingin%20pesan." 
+           target="_blank" 
+           class="hidden md:inline-block bg-amber-600 text-white px-6 py-2.5 rounded-full font-medium hover:bg-amber-700 transition shadow-md">
+            Pesan via WA
+        </a>
+    </nav>
+
+    <header id="beranda" class="relative bg-amber-100 py-20 px-6 md:px-12 flex flex-col-reverse md:flex-row items-center gap-12">
+        <div class="md:w-1/2 flex flex-col gap-6 text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-950 leading-tight">
+                Momen Manis untuk Setiap Perayaan
+            </h1>
+            <p class="text-lg text-gray-700">
+                Sajikan kehangatan di setiap acara Anda. Kami menyediakan berbagai pilihan kue lezat dan snack box praktis untuk ulang tahun, arisan, rapat, hingga acara sosial lainnya.
+            </p>
+            <div class="mt-4">
+                <a href="#menu" class="inline-block bg-amber-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-amber-700 transition shadow-lg border border-amber-700">
+                    Lihat Pilihan Menu
+                </a>
+            </div>
+        </div>
+        <div class="md:w-1/2 w-full">
+            <img src="hero-pastries.png" alt="Aneka Kue Griya Bakery" class="w-full h-72 md:h-96 rounded-2xl shadow-xl border border-amber-300 object-cover">
+        </div>
+    </header>
+
+    <section id="menu" class="py-20 px-6 md:px-12 bg-white">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-amber-900 mb-4">Kreasi Spesial Kami</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto text-lg">Dibuat dari bahan-bahan premium pilihan untuk menjamin kualitas rasa dan tampilan yang istimewa di meja hidangan Anda.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div class="bg-amber-50 rounded-2xl p-6 shadow-sm border border-amber-100 hover:shadow-md hover:-translate-y-1 transition duration-300">
+                <img src="snack-box.png" alt="Paket Snack Box Griya Bakery" class="w-full h-56 rounded-xl mb-6 border border-amber-300 object-cover">
+                <h3 class="text-2xl font-bold text-amber-900 mb-3">Paket Snack Box</h3>
+                <p class="text-gray-600">Pilihan praktis, higienis, dan elegan untuk rapat, seminar, atau arisan. Tersedia ragam isian manis dan gurih.</p>
+            </div>
+
+            <div class="bg-amber-50 rounded-2xl p-6 shadow-sm border border-amber-100 hover:shadow-md hover:-translate-y-1 transition duration-300">
+                <img src="birthday-cake.png" alt="Kue Ulang Tahun Custom" class="w-full h-56 rounded-xl mb-6 border border-amber-300 object-cover">
+                <h3 class="text-2xl font-bold text-amber-900 mb-3">Kue Ulang Tahun</h3>
+                <p class="text-gray-600">Rayakan hari jadi dengan pesanan custom. Bolu lembut dengan desain cantik yang disesuaikan dengan tema acara.</p>
+            </div>
+
+            <div class="bg-amber-50 rounded-2xl p-6 shadow-sm border border-amber-100 hover:shadow-md hover:-translate-y-1 transition duration-300">
+                <img src="jajanan-nampan.png" alt="Kue Tradisional Nampan" class="w-full h-56 rounded-xl mb-6 border border-amber-300 object-cover">
+                <h3 class="text-2xl font-bold text-amber-900 mb-3">Jajanan & Kue Nampan</h3>
+                <p class="text-gray-600">Sajian pelengkap untuk acara kebersamaan. Kombinasi kue tradisional dan modern yang ditata apik di atas nampan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Layanan Acara (Placeholder agar anchor link berfungsi) -->
+    <section id="layanan" class="py-10 bg-amber-50"></section>
+
+    <section id="pesan" class="py-20 bg-amber-800 text-center px-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Siap Melengkapi Acara Anda Berikutnya?</h2>
+        <p class="text-amber-100 mb-10 max-w-2xl mx-auto text-lg">Hubungi tim kami untuk mendiskusikan kebutuhan acara. Kami siap mengatur pesanan skala kecil maupun partai besar dengan jadwal pengiriman yang tepat waktu.</p>
+        
+        <a href="https://wa.me/6283167040096?text=Halo%20Griya%20Bakery,%20saya%20ingin%20tanya%20mengenai%20pesanan%20kue/snack." 
+           target="_blank" 
+           class="inline-flex items-center gap-3 bg-white text-amber-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-amber-50 transition shadow-lg">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.098.824z"/></svg>
+            Tanya via WhatsApp (+62831 6704 0096)
+        </a>
+    </section>
+
+    <!-- SECTION BARU: TINGGALKAN PESAN (Google Form Integration) -->
+    <section id="kontak" class="py-20 px-6 md:px-12 bg-white">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-amber-900 mb-4">Tinggalkan Pesan</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto text-lg">
+                Punya kritik, saran, atau pertanyaan khusus? Kami akan sangat senang mendengarnya.
+            </p>
+        </div>
+        
+        <div class="max-w-4xl mx-auto bg-amber-50 rounded-3xl p-4 shadow-inner border border-amber-100 overflow-hidden">
+            <!-- Ganti URL di bawah ini dengan Link Google Form Anda (Klik Send > Embed </> di Google Form) -->
+            <iframe 
+                src="https://forms.gle/ixNVsuU3LJ2NHAgu6" 
+                width="100%" 
+                height="700" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0"
+                class="rounded-2xl">
+                Memuat…
+            </iframe>
+        </div>
+    </section>
+
+    <footer class="bg-amber-950 text-amber-200/60 py-8 text-center text-sm px-6 relative z-10">
+        <p>&copy; 2026 Griya Bakery. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
